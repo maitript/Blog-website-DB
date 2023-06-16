@@ -1,2 +1,7 @@
 # Blog-website-DB
-A blog website that stores the posts in a DB.  Built it while learning Mongo and Mongoose.
+A platform that connects avid readers and writers. Brings together minds of similar interests to enrich the culture.
+Clone the repo
+```bash
+  https://github.com/maitript/Blog-website-DB.git
+  cd Blog-website-DB
+```
