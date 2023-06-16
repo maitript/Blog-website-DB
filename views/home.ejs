@@ -1,7 +1,7 @@
 
 <%- include("partials/header") -%>
 <h1>Home</h1>
-<h1>Go to localhost:3000/compose to give a new entry</h1>
+<h1>Go to localhost:4000/compose to give a new entry</h1>
 
 <p>
   <%= startingContent %>
@@ -9,7 +9,7 @@
 
 
   <% posts.forEach(function(post){%>
-  <h1><%= post.title %></h1>
+  <h3><%= post.title %></h3>
   <p><%= post.content.substring(0,100) %> ...<a href = " /posts/<%= post._id %>" >Read more</a></p>
  <%});  %>
 
@@ -17,25 +17,3 @@
 <%- include("partials/footer") -%>
 
 
-
-
-<%# db.products.insertOne(
-  {
-    _id: 2,
-    name: "Pencil",
-    price: 0.80,
-    stock: 12,
-    reviews: [
-    {
-      authorName: "James",
-      rating: 5,
-      review: "Amazing"
-    },
-    {
-      authorName: "Joho",
-      rating: 5,
-      review: "W!"
-    }
-  ]
-}
-) %>
