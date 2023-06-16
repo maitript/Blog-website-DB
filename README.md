@@ -6,16 +6,16 @@ Steps to run the application
 
 Clone the repo
 ```bash
-  https://github.com/maitript/Blog-website-DB.git
-  cd Blog-website-DB
+https://github.com/maitript/Blog-website-DB.git
+cd Blog-website-DB
 ```
 
 Install the npm packages
 ```bash
-    npm install
+npm install
 ```
 
 Start the server on any local host
 ```bash
-    nodemon app.js
+nodemon app.js
 ```
